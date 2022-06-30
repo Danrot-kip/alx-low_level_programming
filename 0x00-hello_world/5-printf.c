@@ -1,15 +1,12 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 
 
 /**
- 
-  * main - Print a string
- 
-  * Printf is used to print the output
- 
-   * Return: 0
-   */
+* main - Print a string
+* Printf is used to print the output
+* Return: 0
+ */
 
 
 
