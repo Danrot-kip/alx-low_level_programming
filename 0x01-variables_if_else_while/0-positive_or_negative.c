@@ -1,5 +1,6 @@
 #include <stdlib.h>
-
+#include <tim.h>
+#include<stdlib.h>
 /**
 * main - main using rand for random
 * the if checks if for negative and posive
@@ -19,15 +20,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 1)
 	{
-		printf("positive");
+		printf("%d is positive");
 	}
 	else if (n < 0)
 	{
-		printf("negative");
+		printf("%d is negative");
 	}
 	else
 	{
-		printf("zero");
+		printf("%d is zero");
 	}
 	return (0);
 
