@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+
 /**
-* main - we are using random rand
-*checking the code for main 
- * alwasy return 0
-*/
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
