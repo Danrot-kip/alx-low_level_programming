@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <tim.h>
+#include <time.h>
 #include<stdlib.h>
 /**
 * main - main using rand for random
