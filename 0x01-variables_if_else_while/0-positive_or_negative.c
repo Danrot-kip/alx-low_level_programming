@@ -3,7 +3,8 @@
 #include <time.h>
 /**
 * main - we are using random rand
-* alwasy return 0
+*checking the code for main 
+ * alwasy return 0
 */
 
 int main(void)
@@ -23,7 +24,7 @@ else if (n == 0)
 }
 else
 {
-	printf("%d is negative", n);
+	printf("%d is negative\n", n);
 
 }
 
