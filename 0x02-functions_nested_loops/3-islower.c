@@ -3,19 +3,21 @@
 /**
  * _islower - checks c if it is small letter
  *
- * @c:check if it is lower case
+ *
  * Return: 0 otherwise and return 1 if success
  */
-int _islower(int c)
+int _islower(void)
 {
-	c = 'h';
+	int c = 'h';
 
 	if (_islower(c))
 	{
-		_putchar('0');
+		_putchar('1');
 		_putchar('\n');
 	}
 	else
-
-	return (0);
+	{
+		_putchar('0');
+	}
+		return (0);
 }
