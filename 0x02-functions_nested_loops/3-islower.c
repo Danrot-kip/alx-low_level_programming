@@ -3,21 +3,15 @@
 /**
  * _islower - checks c if it is small letter
  *
- *
+ *@c: checks if its lower
  * Return: 0 otherwise and return 1 if success
  */
-int _islower(void)
+int _islower(int c)
 {
-	int c = 'h';
-
-	if (_islower(c))
+	if (c >= 'a' && c <= 'z')
 	{
-		_putchar('1');
-		_putchar('\n');
+		return (1);
 	}
 	else
-	{
-		_putchar('0');
-	}
 		return (0);
 }
