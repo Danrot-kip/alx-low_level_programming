@@ -10,6 +10,6 @@ int _abs(int)
 {
 	int r, n;
 
-	r = abs(n);
-	_puthar(n);
+	r = _abs(n);
+	_putchar(n);
 }
