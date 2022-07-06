@@ -8,9 +8,9 @@
  */
 int _islower(int c)
 {
-	int letter = 'c';
+	c = 'h';
 
-	if (islower(letter))
+	if (_islower(c))
 	{
 		_putchar('0');
 		_putchar('\n');
