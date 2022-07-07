@@ -1,21 +1,44 @@
-#ifndef HEADER_FILE
-
-#define HEADER_FILE
+#include "main.h"
 
 
 
-int _putchar(char c);
+/**
+ * main - causes an infinite loop
+ * Return: 0
+ */
 
 
 
-void positive_or_negative(int i);
+int main(void)
 
-int largest_number(int a, int b, int c);
+{
 
-int convert_day(int month, int day);
-
-void print_remaining_days(int month, int day, int year);
+int i;
 
 
 
-#endif
+printf("Infinite loop incoming :(\n");
+
+
+
+i = 0;
+
+/*
+
+ * while (i < 10)
+
+ * {
+
+ * putchar(i);
+
+ * }
+
+*/
+
+printf("Infinite loop avoided! \\o/\n");
+
+
+
+return (0);
+
+}
