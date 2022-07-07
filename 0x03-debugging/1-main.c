@@ -12,7 +12,7 @@
 int main(void)
 
 {
-	int i = 0;
+	int i;
 
 	printf("Infinite loop incomming :(\n");
 	i = 0;
