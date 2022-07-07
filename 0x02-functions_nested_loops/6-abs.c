@@ -6,11 +6,11 @@
  *@int: the unteger we are checking
  * Return: return the absolute value
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
+	int r;
 
-	int = _abs(n);
-	_putchar(n);
+	n = _abs(r);
+	_putchar(r);
 	return (0);
 }
