@@ -3,7 +3,7 @@
 
 /**
  * _abs - _abs prints out the absolute value
- *@int: the unteger we are checking
+ *@n: the unteger we are checking
  * Return: return the absolute value
  */
 int _abs(int n)
@@ -12,7 +12,7 @@ int _abs(int n)
 	{
 		return (n * -1);
 	}
-	else 
+	else
 	{
 		return (n);
 	}
