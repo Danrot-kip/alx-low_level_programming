@@ -9,7 +9,7 @@
 void times_table(void)
 
 {
-	int col = 0, row = 0, units = 0, tesn = 0, n = 0;
+	int col = 0, row = 0, units = 0, tens = 0, n = 0;
 
 	while (row < 10)
 	{
