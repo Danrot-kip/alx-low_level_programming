@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _isupper - main function
- * @c: upper case
- * Return: 1 sucees and 0 otherwise
+ * _isupper - checks c if it is small letter
+ *
+ *@c: checks if its lower
+ * Return: 0 otherwise and return 1 if success
  */
-
 int _isupper(int c)
 {
-	for ((c >= 'A') && (c <= 'Z'))
+	if (c >= 'A' && c <= 'Z')
+	{
 		return (1);
+	}
 	else
 		return (0);
 }
