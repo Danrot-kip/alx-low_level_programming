@@ -8,7 +8,7 @@
 
 int _isupper(int c)
 {
-	for (c >= 'A' && C <= 'Z')
+	for (c >= 'A' && c <= 'Z')
 	{
 		_putchar('1');
 	}
