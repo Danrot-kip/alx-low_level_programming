@@ -10,6 +10,6 @@ int _strlen(char *s)
 {
 	int length;
 
-	length = strle(c);
+	length = strlen(c);
 	_putchar('0' + length % 10);
 }
