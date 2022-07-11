@@ -11,21 +11,21 @@ void puts2(char *str)
 
 {
 
-int longitud = 0;
+int i = 0;
 
-while (str[longitud] != '\0')
-
-{
-
-if (longitud % 2 == 0)
+while (str[i] != '\0')
 
 {
 
-_putchar(str[longitud]);
+if (i % 2 == 0)
+
+{
+
+_putchar(str[i]);
 
 }
 
-longitud++;
+iu++;
 
 }
 
