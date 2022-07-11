@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *  * puts_half - main description
- *   * @str: string
- *    * Return: void
+ * puts_half - main description
+ * @str: string
+ * Return: void
  */
 void puts_half(char *str)
 {
@@ -10,12 +10,10 @@ void puts_half(char *str)
 
 	while (str[i] != '\0')
 		i++;
-
 	if (i % 2 == 0)
 		indice = i / 2;
 	else
 		indice = (i - 1) / 2;
-
 	for (i = i - indice ; i < i ; i++)
 	{
 		_putchar(str[i]);
