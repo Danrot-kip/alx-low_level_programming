@@ -2,7 +2,7 @@
 
 /**
  * _puts - main description
- *
+ *@str: string
  * Return: return null if success
  */
 void _puts(char *str)
