@@ -1,34 +1,39 @@
 #include "main.h"
 
+
+
 /**
- * puts2 - main description
- * @str: string
+
+ * puts2 - function
+
  *
- * Return: void
+
+ * @str: pointer of parameter
+
  */
+
+
 
 void puts2(char *str)
 
 {
 
-int i = 0;
+	int i = 0;
 
-while (str[i] != '\0')
 
-{
 
-if (i % 2 == 0)
+	while (str[i] != '\0')
 
-{
+	{
 
-_putchar(str[i]);
+		if (i % 2 == 0)
 
-}
+			_putchar(str[i]);
 
-iu++;
+		i++;
 
-}
+	}
 
-_putchar('\n');
+	_putchar(10);
 
 }
