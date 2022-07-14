@@ -8,11 +8,8 @@
  * @dest: appendix
  * @src: addidtional
  *
- * Return: return string 
+ * Return: return string
  */
-
-
-
 char *_strcat(char *dest, char *src)
 
 {
