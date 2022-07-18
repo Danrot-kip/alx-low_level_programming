@@ -6,7 +6,7 @@
  * _strpbrk - main description
  * @s: array of char
  * @accept: array
-*Return: return 
+*Return: return
  */
 char *_strpbrk(char *s, char *accept)
 

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strstr -  main descripttion
  * @haystack: string where to search
