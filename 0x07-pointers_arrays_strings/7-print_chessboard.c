@@ -1,19 +1,31 @@
 #include "main.h"
+
 /**
- * print_chessboard - function that prints the chessboard.
- * @a: matrix 8*8
- * Description:  function that prints the chessboard.
- * Return: void
+ * print_chessboard - main function
+ * @a: Pointer to 2-D array location
+ * Return: Null
  */
+
 void print_chessboard(char (*a)[8])
+
 {
-int fila, columna;
-for (fila = 0 ; fila < 8 ; fila++)
-{
-for (columna = 0 ; columna < 8; columna++)
-{
-_putchar(a[fila][columna]);
-}
-_putchar('\n');
-}
+
+	int i;
+
+	int j;
+
+
+
+	for (i = 0; i < 8; i++)
+
+	{
+
+		for (j = 0; j < 8; j++)
+
+			putchar(a[i][j]);
+
+	putchar('\n');
+
+	}
+
 }
