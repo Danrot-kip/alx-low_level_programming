@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main -  writes its name
- * @argc: arguement count
- * @argv: array of pointers to arguement strings
- * Return: 0
- **/
+ * main - check the code for Holberton School students.
+ * @argc : argc contains the number of arguments passed to the program
+ * @argv : A vector is a one-dimensional array
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
-	argc = argc;
-	printf("%s\n", *argv);
-	return (0);
+if (argc > 0)
+printf("%s\n", argv[0]);
+return (0);
 }
