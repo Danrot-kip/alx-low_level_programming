@@ -10,19 +10,19 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *ptrStr;
-	int  i,lenCad = 0;
+	int  i, lenCad = 0;
 
 	if (s1 ==  NULL && s1 ==  NULL)
 	{
 		ptrStr = "";
 		return (ptrStr);
 	}
-	if (s1 !=  NULL )
+	if (s1 !=  NULL)
 	{
 		for (i = 0; s1[i] != '\0' ; i++)
 			lenCad++;
 	}
-	if (s2 !=  NULL )
+	if (s2 !=  NULL)
 	{
 		for (i = 0; s2[i] != '\0' ; i++)
 			lenCad++;
