@@ -1,5 +1,5 @@
 #include "main.h"
-
+int _pow(int x, int y);
 /**
  * binary_to_uint - converts a binary number to an unsigned int.
  * @b: string of 0 and 1
