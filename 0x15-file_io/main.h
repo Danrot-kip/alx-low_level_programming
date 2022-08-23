@@ -1,12 +1,13 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef _FILES
+#define _FILES
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdlib.h>
 #include <unistd.h>
-
+int _putchar(char c);
 int _putchar(char c);
 ssize_t read_textfile(const char *filename, size_t letters);
 int create_file(const char *filename, char *text_content);
